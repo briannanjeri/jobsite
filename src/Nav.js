@@ -13,10 +13,10 @@ const Nav = () => {
 
         </div>
         <div><RiMenu3Line/>RECRUITM</div>
-          <div className='login'>
-         <div><a href='#'>Login</a></div>
-           <a href='#'>Sign up</a>
-           </div>
+        <div className='login'>
+        <div><button>Log in</button></div>
+        <button>Sign up</button>
+      </div>
         </nav>
     </div>
   )

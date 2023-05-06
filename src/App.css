@@ -19,11 +19,17 @@
   margin-right: 20px;
   text-decoration: none;
 }
-.login a{
-  text-decoration: none;
+.login button {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-
-
+.login button:hover {
+  background-color: #0056b3;
+}
 .logo {
   display: flex;
   flex-direction: column;
@@ -94,12 +100,18 @@
   font-size: 1.2rem;
 }
 
-.sideNav > ul > li > a {
-  color: black;
-  text-decoration: none;
+.sideNav > ul > li > button {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
-.sideNav > ul > li > a:hover {
+.sideNav > ul > li > button:hover {
   color: #007bff;
 }
 
@@ -296,6 +308,14 @@ color: #009688;
   width: 96.5%;
 }
 
+.footer button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 .company {
   flex: 1;
 }
@@ -305,7 +325,7 @@ color: #009688;
   margin-bottom: 10px;
 }
 
-.company a {
+.company button {
   color: #333;
   display: block;
   margin-bottom: 5px;
@@ -321,7 +341,7 @@ color: #009688;
   margin-bottom: 10px;
 }
 
-.connect a {
+.connect button {
   color: #333;
   display: inline-block;
   margin-right: 10px;
@@ -337,7 +357,7 @@ color: #009688;
   margin-bottom: 10px;
 }
 
-.help a {
+.help button {
   color: #333;
   display: block;
   margin-bottom: 5px;
@@ -353,7 +373,7 @@ color: #009688;
   margin-bottom: 10px;
 }
 
-.jobseekers a {
+.jobseekers button {
   color: #333;
   display: block;
   margin-bottom: 5px;

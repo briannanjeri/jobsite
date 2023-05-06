@@ -3,7 +3,6 @@ import mohit from './images/mohit.png'
 import { FaInstagram } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaPinterest } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
 
 
 
